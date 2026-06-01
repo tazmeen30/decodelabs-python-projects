@@ -1,23 +1,49 @@
-# DecodeLabs Python Projects — Batch 2026
+# Project 1 — To-Do List
+### DecodeLabs Internship | Batch 2026
 
-## About
-Internship projects built at DecodeLabs.
-Focus: Backend Python Development
+## Developer
+**Name:** Tazmeen
+**Batch:** 2026
+**Internship:** DecodeLabs Python Developer Track
 
----
+## Project Overview
+A menu-driven To-Do List application built
+using core Python concepts. Users can add
+tasks dynamically, view them in numbered
+format, and the program handles all edge
+cases professionally.
 
-## Project 1 — To-Do List ✅
-**Key Skills:** Lists, Functions, Loops, Input Handling
+## Key Skills Demonstrated
+- Lists and .append() for data storage
+- while True loops with break
+- for loops with enumerate()
+- input() for user interaction
+- Edge case handling (empty input)
+- Separation of concerns using functions
+- Global variable scope management
 
-**What it does:**
-- Add tasks dynamically using input()
+## Features
+- Add multiple tasks dynamically
 - View all tasks with numbering
-- Handles empty input edge cases
-- Menu-driven interface
+- Handles empty input gracefully
+- Invalid menu choice handled
+- Exit with task count summary
+- Menu driven interface
 
-**File:** todo_list.py
+## Code Structure
+- my_tasks → global list storage
+- add_task() → handles adding logic
+- view_tasks() → handles display logic
+- main() → controls menu flow
 
----
+## How To Run
+python todo_list.py
 
-## Project 2 — Expense Tracker 🔄
-Coming soon...
+## Sample Output
+==============================
+   DECODELABS TO-DO LIST
+==============================
+What do you want to do?
+1. Add tasks
+2. View tasks
+3. Exit
